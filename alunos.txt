@@ -1,0 +1,6 @@
+nome, nota (Pedro, 8.0)
+nome, nota (Maria, 10.0)
+nome, nota (Amilton, 7.5)
+nome, nota (Josias, 10.0)
+nome, nota (Thamirys, 6.0)
+nome, nota (Majuh, 7.0)
