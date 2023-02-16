@@ -24,7 +24,6 @@ class ListaEncadeadaExtremidadeDupla:
         novo.proximo = self.primeiro
         self.primeiro = novo
 
-    def insere
     def insere_final(self, valor):
         novo = No(valor)
         if self.__lista_vazia():
@@ -55,5 +54,11 @@ class ListaEncadeadaExtremidadeDupla:
 
 
 lista = ListaEncadeadaExtremidadeDupla()
-lista.insere_inicio(1)
+lista.insere_final(1)
+lista.insere_final(2)
+lista.insere_final(3)
+lista.insere_final(4)
+lista.insere_inicio(0)
+lista.excluir_inicio()
 print(lista.mostrar())
+
